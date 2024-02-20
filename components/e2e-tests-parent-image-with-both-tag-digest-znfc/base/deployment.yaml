@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-with-both-tag-digest-znfc
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-824/e2e-tests-parent-image-with-both-tag-digest-znfc@sha256:fa66de8ca917e66bdd8ae5a9de1f19b592092f9ec58b1aa1b9f9db76f6870972
         imagePullPolicy: Always
         name: container-image
         ports:
