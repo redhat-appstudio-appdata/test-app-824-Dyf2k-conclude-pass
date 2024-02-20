@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: retrodep-nelb
     spec:
       containers:
-      - image: retrodep:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-824/retrodep-nelb@sha256:fa96be7700fce52e5390bf9a36aa0851de8c77cfe8bcd9cec5662ee3f24d4f4f
         name: my-retrodep
         ports:
         - containerPort: 8081
