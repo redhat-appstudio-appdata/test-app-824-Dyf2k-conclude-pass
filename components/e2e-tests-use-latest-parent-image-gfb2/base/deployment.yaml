@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-use-latest-parent-image-gfb2
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-824/e2e-tests-use-latest-parent-image-gfb2@sha256:716132ba6d367f76cc701f9900523979802fefafaecfb5641651f42476046f4a
         imagePullPolicy: Always
         name: container-image
         ports:
