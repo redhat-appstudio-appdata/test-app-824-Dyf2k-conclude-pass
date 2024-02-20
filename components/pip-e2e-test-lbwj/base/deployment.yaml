@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pip-e2e-test-lbwj
     spec:
       containers:
-      - image: pip-e2e-test:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-824/pip-e2e-test-lbwj@sha256:9947cf0784f885909e09ec0a0366d9f9371c9b8dcba3f2f79efeb5bac92bac7f
         name: pip-e2e-test
         ports:
         - containerPort: 8081
